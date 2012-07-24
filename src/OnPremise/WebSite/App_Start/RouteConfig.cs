@@ -1,4 +1,5 @@
 ﻿using System.ServiceModel.Activation;
+using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Thinktecture.IdentityServer.Core.Protocols.WSTrust;
@@ -12,10 +13,10 @@ namespace Thinktecture.IdentityServer.Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-                "FederationMetadata",
-                "FederationMetadata/2007-06/FederationMetadata.xml",
-                new { controller = "FederationMetadata", action = "Generate" }
+            routes.MapHttpRoute(
+                name: "FederationMetadata",
+                routeTemplate: "FederationMetadata/2007-06/FederationMetadata.xml",
+                defaults: new { controller = "FederationMetadata" }
             );
 
             routes.MapRoute(

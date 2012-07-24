@@ -111,6 +111,10 @@
     <Compile Include="ViewModels\SignInModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Thinktecture.IdentityServer.Core.Protocols\Thinktecture.IdentityServer.Core.Protocols.csproj">
+      <Project>{53afbc78-9c82-4be2-96c1-42a09dcc4b58}</Project>
+      <Name>Thinktecture.IdentityServer.Core.Protocols</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Thinktecture.IdentityServer.Core\Thinktecture.IdentityServer.Core.csproj">
       <Project>{38CE5C59-909E-4DA6-8E1D-7EEE7312CA9A}</Project>
       <Name>Thinktecture.IdentityServer.Core</Name>

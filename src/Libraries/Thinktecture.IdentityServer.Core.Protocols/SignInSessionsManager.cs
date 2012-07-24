@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Thinktecture.IdentityServer.TokenService
+namespace Thinktecture.IdentityServer.Protocols
 {
     public class SignInSessionsManager
     {
