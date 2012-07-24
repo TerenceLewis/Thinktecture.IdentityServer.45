@@ -7,7 +7,7 @@
     <ProjectGuid>{53AFBC78-9C82-4BE2-96C1-42A09DCC4B58}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Thinktecture.IdentityServer.Core.Protocols</RootNamespace>
+    <RootNamespace>Thinktecture.IdentityServer.Protocols</RootNamespace>
     <AssemblyName>Thinktecture.IdentityServer.Core.Protocols</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -68,11 +68,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SignInSessionsManager2.cs" />
     <Compile Include="DebugTraceWriter.cs" />
     <Compile Include="FederationMetadata\FederationMetadataController.cs" />
     <Compile Include="FederationMetadata\WSFederationMetadataGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SignInSessionsManager.cs" />
+    <Compile Include="WSFederation\WSFedController.cs" />
     <Compile Include="WSTrust\TokenServiceHostFactory.cs" />
   </ItemGroup>
   <ItemGroup>

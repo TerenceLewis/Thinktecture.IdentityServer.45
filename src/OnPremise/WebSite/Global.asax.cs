@@ -12,7 +12,6 @@ using System.Web.Http.Tracing;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using Thinktecture.IdentityServer.Core.Protocols;
 using Thinktecture.IdentityServer.Repositories;
 using Thinktecture.IdentityServer.Repositories.Sql;
 using Thinktecture.IdentityServer.TokenService;

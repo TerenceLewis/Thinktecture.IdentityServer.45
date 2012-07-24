@@ -2,7 +2,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
-using Thinktecture.IdentityServer.Core.Protocols.WSTrust;
+using Thinktecture.IdentityServer.Protocols.WSTrust;
 using Thinktecture.IdentityServer.TokenService;
 
 namespace Thinktecture.IdentityServer.Web
@@ -18,6 +18,9 @@ namespace Thinktecture.IdentityServer.Web
                 routeTemplate: "FederationMetadata/2007-06/FederationMetadata.xml",
                 defaults: new { controller = "FederationMetadata" }
             );
+
+
+
 
             routes.MapRoute(
                 "RelyingPartiesAdmin",

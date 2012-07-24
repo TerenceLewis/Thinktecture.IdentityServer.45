@@ -1,12 +1,11 @@
-﻿using System;
-using System.ComponentModel.Composition;
+﻿using System.ComponentModel.Composition;
 using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Web.Http;
 using Thinktecture.IdentityServer.Repositories;
 
-namespace Thinktecture.IdentityServer.Core.Protocols.FederationMetadata
+namespace Thinktecture.IdentityServer.Protocols.FederationMetadata
 {
     public class FederationMetadataController : ApiController
     {
