@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thinktecture.IdentityServer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "src\Tests\Tests.csproj", "{E1C66C6B-634B-4582-A15C-B27887873C0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thinktecture.IdentityServer.Core.Protocols", "src\Libraries\Thinktecture.IdentityServer.Core.Protocols\Thinktecture.IdentityServer.Core.Protocols.csproj", "{53AFBC78-9C82-4BE2-96C1-42A09DCC4B58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{38CE5C59-909E-4DA6-8E1D-7EEE7312CA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38CE5C59-909E-4DA6-8E1D-7EEE7312CA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38CE5C59-909E-4DA6-8E1D-7EEE7312CA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53AFBC78-9C82-4BE2-96C1-42A09DCC4B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AFBC78-9C82-4BE2-96C1-42A09DCC4B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AFBC78-9C82-4BE2-96C1-42A09DCC4B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53AFBC78-9C82-4BE2-96C1-42A09DCC4B58}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9658F86F-3059-4731-9EB0-5F67A4FF1A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9658F86F-3059-4731-9EB0-5F67A4FF1A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9658F86F-3059-4731-9EB0-5F67A4FF1A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -52,6 +58,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{38CE5C59-909E-4DA6-8E1D-7EEE7312CA9A} = {2B1ED56F-D37A-44C0-ABED-CD45218E59D3}
+		{53AFBC78-9C82-4BE2-96C1-42A09DCC4B58} = {2B1ED56F-D37A-44C0-ABED-CD45218E59D3}
 		{9658F86F-3059-4731-9EB0-5F67A4FF1A8A} = {2B1ED56F-D37A-44C0-ABED-CD45218E59D3}
 		{FC2D7E2A-65A2-480F-AAE8-855FD026AF85} = {2B1ED56F-D37A-44C0-ABED-CD45218E59D3}
 	EndGlobalSection

@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.ServiceModel.Activation;
-using System.Web;
-using System.Web.Http;
+﻿using System.ServiceModel.Activation;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Thinktecture.IdentityServer.Core.Protocols.WSTrust;
 using Thinktecture.IdentityServer.TokenService;
 
 namespace Thinktecture.IdentityServer.Web
