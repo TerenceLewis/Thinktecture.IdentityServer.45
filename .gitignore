@@ -9,3 +9,7 @@ _bin_deployableAssemblies/
 *.sdf
 *.mdf
 *.ldf
+.hg/
+*.*~
+*.swp
+*.nupkg
