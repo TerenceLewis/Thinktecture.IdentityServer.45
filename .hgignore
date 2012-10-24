@@ -1,0 +1,14 @@
+syntax: glob
+.git/*
+[Oo]bj/*
+[Bb]in/*
+[Pp]ackages/*
+*.user
+_bin_deployableAssemblies/*
+*.sdf
+*.mdf
+*.ldf
+*.suo
+*.*~
+*.swp
+*.nupkg
